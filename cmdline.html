@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]><html class="ie lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Command-Line Help Page for Writing with 
+              Digital Technologies (WRIT 4662W) at the University of Minnesota, 
+              Fall 2015.">
+  <meta name="author" content="Chris Lindgren">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+  <title>Command Line Help for WRIT 4662w</title>
+    
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/prism.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="assets/css/print.css">
+
+  <!-- Fonts -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  <![endif]-->
+</head>
+<body>
+
+   <!-- NAVIGATION ss-icon sosa-icons closed -->
+  <nav class="nav-pre-scroll clicked ss-icon sosa-icons" tabindex="0">
+    <!-- <span id="center-bar"></span> -->
+    <a 
+      id="nav-description"
+      href="index.html#section-description"
+      title="Description">
+        =
+        <span class="screen-reader-text-for-icons">
+         Course Description
+        </span>
+    </a>
+    <a 
+      id="nav-tools"
+      href="index.html#section-texts-tools"
+      title="Texts and Tools">
+        ¼
+        <span class="screen-reader-text-for-icons">
+          Texts and Tools
+        </span>
+    </a>  
+    <a 
+      id="nav-projects"
+      href="index.html#section-writing-projects"
+      title="Writing Projects">
+        D
+        <span class="screen-reader-text-for-icons">
+          Writing Projects
+        </span>
+    </a> 
+    <a 
+      id="nav-schedule"
+      href="index.html#week-9"
+      title="Schedule">
+        Ġ
+        <span class="screen-reader-text-for-icons">
+          Schedule
+        </span>
+    </a>    
+    <a 
+      id="nav-policies"
+      href="index.html#section-policies"
+      title="Grading and Policies">
+        Y
+        <span class="screen-reader-text-for-icons">
+          Grading and Policies
+        </span>
+    </a>
+    <a 
+      id="nav-resources"
+      href="index.html#section-resources"
+      title="Resources">
+        Ĥ
+        <span class="screen-reader-text-for-icons">
+          Resources
+        </span>
+    </a>
+    <a 
+      id="nav-resources"
+      href="cmdline.html"
+      title="Command Line Help">
+        7
+        <span class="screen-reader-text-for-icons">
+          Command Line Help
+        </span>
+    </a>
+  </nav>
+  <!-- /END NAVIGATION -->
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-left">
+      <h1>Writing with Digital Technologies: Command-Line Help</h1>
+      <ul>
+        <li>
+          &raquo; WRIT 4662W | Fall 2015 | <a href="https://github.com/Writing-with-Digital-Technologies-f15" title="Class github repo">
+          <i class="fa fa-github-alt"></i>
+          <span class="screen-reader-text-for-icons">Github</span></a> | <a href="/assets/docs/20150908-4662wf15-syllabus.pdf" title="PDF copy of syllabus">
+            PDF
+          </a>
+        <li>
+          &raquo; Tuesdays, 4:00p-6:30p
+        <li>
+          &raquo; <a href="http://campusmaps.umn.edu/tc/building/BruH/" target="_blank">Bruininks Hall</a>, 420A
+        <li>
+          &raquo; <a href="http://clindgrencv.com" target="_blank">Chris Lindgren</a> | PhD Candidate in Writing Studies
+        <li>
+          &raquo; Office/Hours: <a href="http://campusmaps.umn.edu/tc/building/NCCE/" target="_blank">Nolte Center</a>, #331 / Tu 10:00a-11:00a, 1:00p-2:00p
+      </ul>
+      <p class="subtitle">
+        <q class="epithet">[D]ifferent writing technologies set up radically different spatial, tactile, visual, and even temporal relations between a writer's material body and his or her material text.</q> 
+          <br>—Christina Haas (1996, p. 226)
+      </p>
+    </div>
+    <div id="screens" class="header-right"></div>
+  </header>
+  <!-- /END HEADER -->
+
+  <article id="syllabus">
+    <h2 class="screen-reader-text-for-icons">
+      Command Line Resources for WRIT 4662W - Writing with Digital Technologies
+    </h2>
+
+    <!-- CMD LINE HELP -->
+    <section id="section-description" class="active">
+      <h2 class="syllabus-sections subsection">
+        &laquo; Command-Line Help &raquo;
+      </h2>
+      <div id="sub-description-child" class="accordian-subsection">
+
+        <h3>&raquo; Git Command-Line Help</h3>
+
+        <h4>Basic <code>git</code> commands</h4>
+        <p>
+          Below are some very basic, but common, git commands. For more information, see this helpful "<a href="http://arrayproject.com/content/um-git-what-intro-contemporary-archive" target="_blank">instructional narrative</a>" put together by some brilliant new media artists at the School of the Art Institute of Chicago, as well as Github's own command "<a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf" target="_blank">cheat sheet</a>".
+        </p>
+        <pre class="language-bash">
+<span class="token comment" spellcheck="true">
+##The status command checks the status of the repo 
+##that you are working on. Essentially, is it clean? 
+##Anything in need of committing?</span>
+$ git status
+
+<span class="token comment" spellcheck="true">
+##The add command – note the period – adds everything 
+##that git has tracked as being changed in the working 
+##directory. Instead of using the catch-all period 
+##option, you can also specify particular files, 
+##breaking up your comment into chunks, but that's 
+##most likely not a concern to have in our class.</span>
+$ git add .
+
+<span class="token comment" spellcheck="true">
+##When using the commit command, the -m option lets 
+##git know that you are including a helpful, short 
+##message that explains the nature of the committed 
+##changed files to the repo; hence, the message 
+##within the double quotations.</span>
+$ git commit -m "this is where you type your commit message"
+
+<span class="token comment" spellcheck="true">
+##The push command is what finally sends off your 
+##committed changes to the Github repo that it is 
+##linked to online. The origin argument prompts git 
+##to look for the working branch, so, in this 
+##example, I am pushing the committed changed files 
+##to the master branch.</span>
+$ git push origin master
+          </pre>
+
+        <h3>&raquo; Mac OS Help</h3>
+
+          <h4 id="mac-path-envars">Setting up the PATH environment variable for the <code>dita</code> command</h4>
+          <iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/Um4wQxag0No?rel=0" frameborder="0" allowfullscreen></iframe>
+          <p>
+            Open up your terminal and type out the following commands. Note: The phrases that begin with "##" are comments, describing the function of the command.
+          </p>
+          <pre class="language-bash">
+<span class="token comment" spellcheck="true">##prints out current list of env vars</span>
+$ <span class="token keyword">echo</span> <span class="token property">$PATH</span>
+<span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token punctuation">:</span><span class="token operator">/</span>bin<span class="token punctuation">:</span><span class="token operator">/</span>usr<span class="token operator">/</span>sbin<span class="token punctuation">:</span><span class="token operator">/</span>sbin<span class="token punctuation">:</span><span class="token operator">/</span>usr<span class="token operator">/</span>local<span class="token operator">/</span>bin
+
+<span class="token comment" spellcheck="true">##quick dita cmd test</span>
+$ dita <span class="token operator">-</span>version
+<span class="token operator">-</span><span class="token function">bash</span><span class="token punctuation">:</span> dita<span class="token punctuation">:</span> <span class="token function">command</span> not found
+
+<span class="token comment" spellcheck="true">##changes to base directory</span>
+<span class="token property">$cd</span> <span class="token operator">~</span>
+
+<span class="token comment" spellcheck="true">##prints out 'present working directory'</span>
+<span class="token property">$pwd</span>
+<span class="token operator">/</span>Users<span class="token operator">/</span>your_username_here
+
+<span class="token comment" spellcheck="true">##creates .bash_profile file</span>
+<span class="token property">$touch</span> <span class="token punctuation">.</span>bash_profile
+
+<span class="token comment" spellcheck="true">##opens file in nano editor</span>
+<span class="token property">$nano</span> <span class="token punctuation">.</span>bash_profile
+
+<span class="token function">export</span> DITA_PATH<span class="token operator">=</span><span class="token operator">~</span><span class="token operator">/</span>path<span class="token operator">/</span>to<span class="token operator">/</span>dita-ot-2.1.1
+<span class="token function">export</span> PATH<span class="token operator">=</span><span class="token property">$PATH</span><span class="token punctuation">:</span><span class="token property">$DITA_PATH</span><span class="token operator">/</span>bin
+
+<span class="token comment" spellcheck="true">##restart your terminal</span>
+$ dita <span class="token operator">-</span>version
+DITA-OT version 2.1.1
+
+<span class="token comment" spellcheck="true">##prints out updated list of env vars</span>
+$ <span class="token keyword">echo</span> <span class="token property">$PATH</span>
+<span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token punctuation">:</span><span class="token operator">/</span>bin<span class="token punctuation">:</span><span class="token operator">/</span>usr<span class="token operator">/</span>sbin<span class="token punctuation">:</span><span class="token operator">/</span>sbin<span class="token punctuation">:</span><span class="token operator">/</span>usr<span class="token operator">/</span>local<span class="token operator">/</span>bin<span class="token punctuation">:</span><span class="token operator">/</span>your<span class="token operator">/</span>path<span class="token operator">/</span>to<span class="token operator">/</span>dita-ot-2.1.1<span class="token operator">/</span>bin
+          </pre>
+
+        <h3>&raquo; Windows Help</h3>
+          <h4 id="windows-path-envar">Setting up the PATH environment variable for the <code>dita</code> command</h4>
+          <p>
+            To set the <code dir="ltr">PATH</code> variable permanently, add the full path of the <code dir="ltr">dita-ot-2.1.1\bin</code> directory to the <code dir="ltr">PATH</code> variable. This full path can be found by looking at the directory viewer window. Once you know the path to the DITA-OT's bin directory, complete the following steps to navigate to the 
+          </p>
+          <ol>
+            <li>
+              Click <b>Start</b>, then <b>Control Panel</b>, then <b>System</b>.
+            <li>
+              Click <b>Advanced</b>, then <b>Environment Variables</b>.
+            <li>
+              The PATH environment variable is a series of directories separated by semicolons (;) and is not case-sensitive. Add the location of the <span>bin</span> folder of the DITA-OT to the <code dir="ltr">PATH</code> variable in <b>System Variables</b>. There may be numerous paths already listed. Add the full path to the DITA-OT bin at the end of this list (See below for example): 
+              <pre class="language-bash">
+C:\WINDOWS\system32;C:\WINDOWS;C:\path\to\your\DITA-OT\bin
+</pre>
+          </ol>
+
+        <h3>&raquo; Basic DITA-OT Workflow Configuration</h3>
+          <p>
+            In this video, I discuss what tools you will need to begin using the DITA-OT. From there, I demonstrate how to begin building dita commands with the example topic models within the provided DITA repo.
+          </p>
+          <iframe width="420" height="315" src="https://www.youtube-nocookie.com/embed/MbhTfoOqWMI?rel=0" frameborder="0" allowfullscreen></iframe>  
+      </div>
+    </section>
+    <!-- /END CMD LINE HELP -->
+
+  </article>
+
+  <footer>
+    <section id="footer-copyright">
+      <h2 class="screen-reader-text-for-icons">
+        Syllabus License
+      </h2>
+      <p>
+        WRIT 4662W - Writing Technologies (Fall 2015). University of Minnesota-Twin Cities. This syllabus is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+          Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+          </a>.
+      </p>
+    </section>
+    <section id="footer-social">
+      <h2 class="screen-reader-text-for-icons">
+        Lindgren's social media links
+      </h2>
+      <p>
+        <a href="http://writingstudies.umn.edu/people/profile.php?UID=lindg250" title="UMN Profile">
+          <i class="fa fa-institution"></i>
+          <span class="screen-reader-text-for-icons">Link to Lindgren's University of Minnesota-Twin Cities Profile</span>
+        </a>
+        <a href="https://twitter.com/lndgrn" title="@lndgrn">
+          <i class="fa fa-twitter"></i>
+          <span class="screen-reader-text-for-icons">Link to Lindgren's Twitter Profile</span>
+        </a>
+        <a href="https://github.com/Writing-with-Digital-Technologies-f15" title="Class github repo">
+          <i class="fa fa-github-alt"></i>
+          <span class="screen-reader-text-for-icons">Link to the course's Github repo</span>
+        </a>
+      </p>
+    </section>
+  </footer>
+
+  <!-- Libs -->
+  <script src="assets/lib/jquery.js"></script>
+  <script src="assets/lib/lazylinepainter-1.5.1.min.js"></script>
+
+  <!-- JS Scripts -->
+  <script src="assets/js/screens-drawing.js"></script>
+  <script src="assets/js/schedule-circles.js"></script>
+  
+  <script src="assets/js/sticky-nav.js"></script>
+  
+  <script>
+    jQuery(document).ready(function($){
+      $('#screens').lazylinepainter(
+        {
+          "svgData": pathObj,
+          "strokeWidth": 2,
+          "strokeColor": "#03604c",
+          "responsive": true
+      });
+      $('#screens').lazylinepainter('paint');
+    });
+  </script>
+
+  <!-- Start Open Web Analytics Tracker -->
+  <script type="text/javascript">
+    //<![CDATA[
+    var owa_baseUrl = 'http://clindgrencv.com/owa/';
+    var owa_cmds = owa_cmds || [];
+    owa_cmds.push(['setSiteId', '122842da39474189434f84b9d1aaad32']);
+    owa_cmds.push(['trackPageView']);
+    owa_cmds.push(['trackClicks']);
+    owa_cmds.push(['trackDomStream']);
+
+    (function() {
+      var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+      owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+      _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+      var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+    }());
+    //]]>
+  </script>
+  <!-- End Open Web Analytics Code -->
+
+</body>
+</html>

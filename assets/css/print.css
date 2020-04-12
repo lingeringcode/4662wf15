@@ -1,0 +1,188 @@
+nav, footer, video, 
+audio, object, #screens,
+.screen-reader-text-for-icons,
+figure#twitter-css-body {
+  display: none;
+}
+body {
+  background: white;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.25em;
+  font: "Lato-Light";
+}
+pre, kbd, samp, code, var { 
+  font: 0.9em Consolas,"Andale Mono",Monaco,"Liberation Mono","Bitstream Vera Sans Mono","DejaVu Sans Mono",monospace; 
+  word-spacing: 0px; 
+  letter-spacing: 0px;
+}
+.daily-info {
+  display: block;
+  width: 100%;
+}
+/* Schedule circles */
+.circular {
+  height: 7em;
+  margin: 2em 2em;
+  padding-bottom: 2em;
+  width: 100%;
+  clear: both;
+  float: left;
+  text-transform: uppercase;
+}
+.circular svg {
+  display: block;
+  overflow: visible;
+  font-size: 1rem;
+}
+.circular text { 
+  fill: #000;
+  y: 20;
+ }
+.circular path { fill: #fff; stroke: #000; }
+img {
+  max-width: 500px;
+}
+@page {
+  margin: 10%;
+}
+h1 {
+  font-size: 24pt;
+}
+h2 {
+  font-size: 15pt;
+  margin: 25px 0 25px 0px;
+}
+h2.syllabus-sections {
+  text-align: center;
+}
+div.synopsis > h2 {
+  font-size: 14pt;
+}
+h3 {
+  font-family: "Gidole-Regular", sans-serif;
+}
+blockquote, ul {
+  margin: 0;
+}
+#syllabus:before {
+  display: block;
+  content: "Lindgren, C. (Fall 2015). WRIT 4662W: Writing with Digital Technologies. [Syllabus]. University of Minnesota. Retrieved from http://4662wf15.clindgrencv.com/";
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  padding: 5%;
+  font-style: bold;
+}
+.cite > p {
+  margin-left: 0.75in;
+  text-indent: -0.5in;
+  margin-bottom: 2%;
+  line-height: 2em;
+}
+p a:after {
+  content: " (" attr(href) ")";
+}
+p a[href^="#"]:after {
+  display: none;
+}
+p a[href^="http://"]:after, a[href^="https://"]:after {
+  content: " (" attr(href) ")";
+}
+p a {
+  word-wrap: break-word;
+}
+a {
+  color: #000;
+}
+span.first-letter-p {
+  font-size: 2rem;
+}
+span.underline-text {
+  text-decoration: underline;
+}
+
+/* Lists */
+div.table-for-list {
+  margin-left: -5%;
+}
+ul.crisp-list > li,
+li.sub-crisp-list > ul > li {
+  list-style-type: none;
+}
+ul.crisp-list {
+  margin-left: 0;
+}
+li.sub-crisp-list > ul > li {
+  margin: 2.5% 2%;
+}
+ul.crisp-list > li {
+  font-style: bold;
+}
+
+.daily-info .readings,
+.daily-info .writings,
+.daily-info .other-directions {
+  border: 2px solid #000;
+  padding: 1em 1.2em;
+  margin-bottom: 10px;
+  color: black;
+  font-size: 0.9rem;
+}
+
+/*============================
+  * WRITING PROJECT GRID
+  * ===========================*/
+
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .projects {
+    margin: 5px;
+    height: 90px;
+  }
+  .projects:after {
+    /* Or @extend clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .projects > [class*='proj-'] {
+    float: left;
+    padding-right: 5px;
+  }
+  .projects [class*='proj-']:last-of-type {
+    padding-right: 0;
+  }
+
+  /* Opt-in outside padding */
+  .projects-pad {
+    padding: 0px;
+  }
+  .projects-pad [class*='proj-']:last-of-type {
+    padding-right: 20px;
+  }
+
+  .proj-100 { width:100%; }
+  .proj-66 { width: 66.66%; }
+  .proj-50 { width:50%; }
+  .proj-33 { width: 33.33%; }
+  .proj-25 { width:25%; }
+  .proj-12 { width: 12.5%; }
+
+  .module {
+    padding: 0px;
+    height: 90px;
+    border: #000 solid 1px;
+  }
+
+  .module > h4,
+  .module > p {
+    margin: 0px;
+  }
+  .module > ul {
+    margin: 10px 0 0 -25px;
+    list-style: none;
+  }

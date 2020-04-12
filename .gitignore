@@ -1,0 +1,11 @@
+github-repos
+printout*.pdf
+SRT*.pdf
+_outmoded
+.DS_STORE
+assets/dita-materials
+assets/slideshows
+assets/vid
+assets/wireframing
+assets/workshops
+assets/docs/readings
